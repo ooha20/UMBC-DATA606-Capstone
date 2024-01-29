@@ -24,4 +24,18 @@
 - **Data Visualization:** Seaborn, Tableau
 - **Operating Systems:** Linux, Windows
 
+## Experience
+
+**Programmer Analyst - Cognizant Technology Solutions, India (Oct 2020 – July 2022)**
+
+- Collaborated in cross-functional teams for Banking and Financial Services Industry projects, specializing in Java, Spring MVC, and Spring Boot.
+- Developed and tested web applications for Wells Fargo, utilizing technologies like Spring Boot, MongoDB, React TypeScript, and maintaining Restful API architectures.
+
+**Intern - Cognizant Technology Solutions, India (Dec 2019 – Apr 2020)**
+
+- Completed training in Core Java, SQL, and Spring technologies, including Spring Core, Spring MVC, Servlets, and JDBC.
+- Developed practical skills in web development by designing an e-commerce website prototype (HTML, CSS, JavaScript, SQL) and a web-based application for online restaurant services. Collaborated with senior teams, gaining experience in Scrum and Agile project management.
+
+
+
 
