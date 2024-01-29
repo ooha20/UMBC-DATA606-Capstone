@@ -36,6 +36,13 @@
 - Completed training in Core Java, SQL, and Spring technologies, including Spring Core, Spring MVC, Servlets, and JDBC.
 - Developed practical skills in web development by designing an e-commerce website prototype (HTML, CSS, JavaScript, SQL) and a web-based application for online restaurant services. Collaborated with senior teams, gaining experience in Scrum and Agile project management.
 
+## Projects
+
+**Flight Delay Analysis and Prediction**
+
+- Engineered machine learning models to forecast flight delays by leveraging historical data and real-time weather updates.
+- Applied Support Vector Machines (SVM), Random Forest, and XGBoost, coupled with hyperparameter tuning, to enhance prediction accuracy for flight delays.
+
 
 
 
