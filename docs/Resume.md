@@ -43,6 +43,13 @@
 - Engineered machine learning models to forecast flight delays by leveraging historical data and real-time weather updates.
 - Applied Support Vector Machines (SVM), Random Forest, and XGBoost, coupled with hyperparameter tuning, to enhance prediction accuracy for flight delays.
 
+**Diagnostic Medical Center**
+
+- Created application to know the services available in the hospital and inform the patients about their treatment dates and doctor details, Developed a system that provides functions to support doctors to view and manage their information conveniently using login credentials.
+- Maintained records of patients, treatment information, agent and admin details in a centralized database system using Servlets, JSP, JDBC and MySQL.
+
+
+
 
 
 
