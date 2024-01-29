@@ -63,6 +63,11 @@
 - Certified by “ IBM Career Education-Essentials of Big Data with Hadoop using IBM Infosphere Big Insights“.
 - Successful corporate skills (Java 8 and Informatica) Training in Cognizant Technology Solutions.
 
+## Personal Interests
+
+- Sketching
+- Continuous Learning
+- Puzzle Games
 
 
 
