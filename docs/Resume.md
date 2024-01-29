@@ -38,6 +38,11 @@
 
 ## Projects
 
+**Image Colorization with U-Net and GAN**
+
+- Led the development of an image colorization project utilizing U-Net and GAN, successfully automating the process of adding color to black and white images through end-to-end deep learning techniques.
+- Implemented and optimized image colorization models, leveraging datasets such as COCO and ImageNet. Employed a unique approach of converting RGB to Lab color space, combining adversarial (GAN) loss and L1 loss for effective unsupervised learning.
+  
 **Flight Delay Analysis and Prediction**
 
 - Engineered machine learning models to forecast flight delays by leveraging historical data and real-time weather updates.
