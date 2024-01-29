@@ -48,6 +48,14 @@
 - Created application to know the services available in the hospital and inform the patients about their treatment dates and doctor details, Developed a system that provides functions to support doctors to view and manage their information conveniently using login credentials.
 - Maintained records of patients, treatment information, agent and admin details in a centralized database system using Servlets, JSP, JDBC and MySQL.
 
+**Competitive Bike Analysis and Popularity Prediction of Bike-Sharing Apps**
+
+- Developed an application to predict the popularity contest among bike-sharing apps leveraging multi-source data. 
+- Coarse-gained and fine-grained competitive features are used and utilized Random Forest model to forecast the future competitiveness.
+- Closely involved with Random Forest model, it performs well on competitive relationship prediction as well as competitive intensity prediction
+
+
+
 
 
 
