@@ -1,7 +1,11 @@
-# OOHA REDDY BIRRU
+# <p align="center">OOHA REDDY BIRRU</p>
+<p align="center">
+  <img src="https://github.com/ooha20/UMBC-DATA606-Capstone/blob/e00176bc15781c950ef36460e15ac0987a35c23a/docs/photo.jpeg" alt="Headshot" width="150" height="150">
+</p>
 
-- **Email:** ho74376@umbc.edu
-- **Phone:** (667) 345-3805
+<p align="center">
+  <strong>Email:</strong> <a href="mailto:ho74376@umbc.edu">ho74376@umbc.edu</a> | <strong>Phone:</strong> (667) 345-3805
+</p>
 
 
 ## Education
