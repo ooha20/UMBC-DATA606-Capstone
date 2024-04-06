@@ -4,8 +4,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-train = pd.read_csv('Train.csv')
-test = pd.read_csv('Test.csv')
+train = pd.read_csv('notebooks/Train.csv')
+test = pd.read_csv('notebooks/Test.csv')
 
 combined_data = pd.concat([train, test], ignore_index=True)
 
