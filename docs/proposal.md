@@ -299,3 +299,15 @@ By reflecting on these lessons learned, future projects can benefit from improve
 7. Ethical Considerations and Bias Mitigation: Proactively addressing ethical considerations, fairness, and bias in the predictive models by conducting thorough audits, implementing fairness-aware algorithms, and ensuring transparency and accountability in decision-making processes. Upholding ethical principles and mitigating potential biases can enhance trust, credibility, and social impact.
 
 By exploring these avenues for future development and expansion, the project can continue to evolve, adapt, and deliver value in addressing real-world challenges and opportunities in predictive analytics and machine learning.
+
+## References
+
+- https://www.ibm.com/topics/linear-regression#:~:text=Linear%20regression%20analysis%20is%20used,is%20called%20the%20independent%20variable.
+
+- https://builtin.com/data-science/random-forest-algorithm
+
+- https://scikit-learn.org/stable/modules/svm.html
+
+- https://medium.com/analytics-vidhya/mae-mse-rmse-coefficient-of-determination-adjusted-r-squared-which-metric-is-better-cd0326a5697e
+
+
