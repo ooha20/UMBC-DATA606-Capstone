@@ -118,6 +118,7 @@ It's important to note that further exploration and preprocessing may be require
     <img src="Relationship_between_itemrating_Sellingprice.png" alt="Pca Variance" width="700">
     </p>
 </div>
+
 **Line Plot:**
 - **Average Selling Price Over the Years:** The line plot demonstrates a general upward trend in average selling prices over the years.
 </div>
@@ -126,6 +127,7 @@ It's important to note that further exploration and preprocessing may be require
     <img src="Avg_Selling_Price_Over_years.png" alt="Pca Variance" width="700">
     </p>
 </div>
+
 **Correlation Matrix:**
 - **Correlation between Variables:** There is a weak positive correlation between item rating and selling price.
 </div>
@@ -134,6 +136,7 @@ It's important to note that further exploration and preprocessing may be require
     <img src="Correlation_matrix.png" alt="Pca Variance" width="700">
     </p>
 </div>
+
 **Bar Plots:**
 - **Average Selling Price by Item Category:** Variations in average selling prices across different item categories are displayed in the bar plot.
 </div>
@@ -142,6 +145,7 @@ It's important to note that further exploration and preprocessing may be require
     <img src="Avg_item_category.png" alt="Pca Variance" width="700">
     </p>
 </div>
+
 - **Average Selling Price by Subcategory_1:** Differences in average selling prices among subcategories are visualized in the bar plot.
 </div>
   <div style="flex: 1;">
@@ -149,11 +153,12 @@ It's important to note that further exploration and preprocessing may be require
     <img src="avg_subcategory.png" alt="Pca Variance" width="700">
     </p>
 </div>
+
 - **Distribution of Item Ratings by Item Category:** The box plot illustrates the distribution of item ratings within each category.
 </div>
   <div style="flex: 1;">
     <p align="center">
-    <img src="docs/item_rating_distribution.png" alt="Pca Variance" width="700">
+    <img src="item_rating_distribution.png" alt="Pca Variance" width="700">
     </p>
 </div>
 
