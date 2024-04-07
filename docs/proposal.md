@@ -103,7 +103,7 @@ It's important to note that further exploration and preprocessing may be require
 
 **Histogram:**
 - **Distribution of Item Ratings:** The histogram reveals a roughly normal distribution of item ratings, centered around 3.0.
-- **Distribution of Selling Prices:** The histogram of selling prices shows a right-skewed distribution, indicating a few high-priced items.
+![Histogram](docs/Distribution_of_Item_ratings.png)
 
 **Scatter Plot:**
 - **Relationship between Item Rating and Selling Price:** The scatter plot indicates a weak positive correlation between item rating and selling price.
