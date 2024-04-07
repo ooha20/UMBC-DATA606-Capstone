@@ -112,17 +112,50 @@ It's important to note that further exploration and preprocessing may be require
 
 **Scatter Plot:**
 - **Relationship between Item Rating and Selling Price:** The scatter plot indicates a weak positive correlation between item rating and selling price.
-
+  </div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="Relationship_between_itemrating_Sellingprice.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 **Line Plot:**
 - **Average Selling Price Over the Years:** The line plot demonstrates a general upward trend in average selling prices over the years.
-
+</div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="Avg_Selling_Price_Over_years.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 **Correlation Matrix:**
 - **Correlation between Variables:** There is a weak positive correlation between item rating and selling price.
-
+</div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="Correlation_matrix.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 **Bar Plots:**
 - **Average Selling Price by Item Category:** Variations in average selling prices across different item categories are displayed in the bar plot.
+</div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="Avg_item_category.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 - **Average Selling Price by Subcategory_1:** Differences in average selling prices among subcategories are visualized in the bar plot.
+</div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="avg_subcategory.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 - **Distribution of Item Ratings by Item Category:** The box plot illustrates the distribution of item ratings within each category.
+</div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="docs/item_rating_distribution.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 
 ### Data Cleansing:
 
@@ -192,10 +225,22 @@ Furthermore, the application includes features for data cleansing and preprocess
 In addition to its analytical capabilities, the application also prioritizes user experience and accessibility. It is designed with a focus on simplicity and ease of use, making it accessible to users of all skill levels. Whether they are data scientists exploring complex relationships or business stakeholders seeking actionable insights, the application provides a seamless and intuitive experience for all users.
 
 Overall, the Streamlit-powered web application represents a powerful tool for leveraging machine learning models to gain valuable insights and make informed decisions. By combining advanced technology with user-centric design principles, the application empowers users to unlock the full potential of their data and drive meaningful outcomes in their business or research endeavors.
+</div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="web_page_1.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 
 ## Conclusion:
 
 Based on the results obtained from training and evaluating the models, it is evident that Linear Regression outperforms Support Vector Machine (SVM) and Random Forest in terms of Mean Squared Error (MSE) and Mean Absolute Error (MAE). Therefore, Linear Regression was chosen as the preferred model for predicting the selling prices of products on the e-commerce platform.
+</div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="predicted_vs_selling_price.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 
 
 ## Limitations of the Project:
