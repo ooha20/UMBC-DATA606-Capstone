@@ -103,7 +103,12 @@ It's important to note that further exploration and preprocessing may be require
 
 **Histogram:**
 - **Distribution of Item Ratings:** The histogram reveals a roughly normal distribution of item ratings, centered around 3.0.
-![Histogram](docs/Distribution_of_Item_ratings.png)
+  </div>
+  <div style="flex: 1;">
+    <p align="center">
+    <img src="Distribution_of_Item_ratings.png" alt="Pca Variance" width="700">
+    </p>
+</div>
 
 **Scatter Plot:**
 - **Relationship between Item Rating and Selling Price:** The scatter plot indicates a weak positive correlation between item rating and selling price.
