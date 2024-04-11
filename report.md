@@ -8,6 +8,8 @@ GitHub:https://github.com/ooha20
 
 LinkedIn:https://www.linkedin.com/in/ooha-reddy-755b36228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
+Powerpoint Presentation File:
+
 ## Background:
 
 ### 1. What is it about?
