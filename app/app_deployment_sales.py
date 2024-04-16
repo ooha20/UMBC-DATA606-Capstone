@@ -49,10 +49,12 @@ def main():
     st.title("Selling Price Prediction")
     st.write("Please select item category, subcategory 1, subcategory 2, and enter item rating to predict selling price.")
 
-    item_category_options = ['Clothing']
+     item_category_options = sorted(train['Item_Category'].unique())
     item_category = st.selectbox("Item Category", 
                                  options=item_category_options, 
+                                 format_func=lambda x: f"Select item category" if x == item_category_options[0] else f"{x} - {label_encoders['Item_Category'].transform([x])[0]}",
                                  index=0)
+
 
     subcategory_1_options = ['Women Clothing', 'Men Clothing', 'Kids Clothing']
     subcategory_1 = st.selectbox("Subcategory 1", 
