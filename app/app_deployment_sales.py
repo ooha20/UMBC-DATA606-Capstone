@@ -30,9 +30,6 @@ def get_subcategories_by_category(train_data, category):
     subcategories = train_data[train_data['Item_Category'] == category]['Subcategory_1'].unique()
     return sorted(subcategories)
 
-subcategory_1_options = sorted(train['Subcategory_1'].unique())
-subcategory_2_options = sorted(train['Subcategory_2'].unique())
-
 def predict_selling_price(model, item_category, subcategory_1, subcategory_2, item_rating):
     item_category_encoded = category_encodings.get(item_category, -1)
     if item_category_encoded == -1:
@@ -62,3 +59,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
