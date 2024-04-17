@@ -32,11 +32,15 @@ def get_subcategories_by_category(train_data, category):
 
 def predict_selling_price(model, item_category, subcategory_1, subcategory_2, item_rating):
     item_category_encoded = category_encodings.get(item_category, -1)
+    subcategory_1_encoded = label_encoders['Subcategory_1'].transform([subcategory_1])[0]
+    subcategory_2_encoded = label_encoders['Subcategory_2'].transform([subcategory_2])[0]
+    
     if item_category_encoded == -1:
         return "Invalid category"
 
-    prediction = model.predict([[item_category_encoded, subcategory_1, subcategory_2, float(item_rating)]])
+    prediction = model.predict([[item_category_encoded, subcategory_1_encoded, subcategory_2_encoded, float(item_rating)]])
     return prediction
+
 
 def main():
     st.title("Selling Price Prediction")
