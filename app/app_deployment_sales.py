@@ -44,6 +44,38 @@ def predict_selling_price(model, item_category, subcategory_1, subcategory_2, it
 
 def main():
     st.title("Selling Price Prediction")
+    st.markdown(
+        """
+        <style>
+        .title {
+            color: #7E8D85;
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .header {
+            color: #5E5E5E;
+            font-size: 24px;
+            margin-top: 30px;
+        }
+        .button {
+            background-color: #9CDBB3;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #7E8D85;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown("<p class='title'>Selling Price Prediction</p>", unsafe_allow_html=True)
     st.write("Please select item category, subcategory 1, subcategory 2, and enter item rating to predict selling price.")
 
     item_category_options = sorted(train['Item_Category'].unique())
