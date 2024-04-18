@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import LabelEncoder
 
 train = pd.read_csv('app/Train.csv')
@@ -23,7 +23,7 @@ test_encoded = combined_data[len(train):]
 X_train = train_encoded.drop(['Selling_Price', 'Date', 'Product', 'Product_Brand'], axis=1)
 y_train = train_encoded['Selling_Price']
 
-model = LinearRegression()
+model = RandomForestRegressor(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 
 def get_subcategories_by_category(train_data, category):
@@ -63,4 +63,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
